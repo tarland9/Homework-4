@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+#header{
+    background-color: #343a40;
+    padding: 23px 6rem;
+    overflow: auto;
+}
+
+#header .logo{
+float: left;
+}
+
+.logo a{
+    color: yellow;
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 25px;
+}
+ 
+
+#header .navbar{
+    float: right;
+    word-spacing: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    letter-spacing: 0.0625em;
+    transition: color 0.15s
+}
+
+.navbar a{
+    color: white;
+    
+}
+.navbar :hover{
+    color: #ffc800;
+}
+
+.info{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    font-size: 300px;
+    padding-top: 20rem;
+    padding-bottom: 6rem;
+}
+.info h1{
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+.info h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+.info button{
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+#Browse{
+    padding: 40px 13rem;
+    background-color: #F8F9FA;
+    overflow: auto;
+}
+.br-text{
+    text-align: center;
+    
+}
+.br-text h1{
+    color: #212529;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.br-text p{
+    color:#6c757d;
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+.br-all .box{
+    width: 30%;
+    float: left;
+    margin: 0  1% 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+.br-all .box:hover{
+    box-shadow: 4px 3px 14px #888888;
+    transform: translateY(-10px);
+}
+.br-all .box .top img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 7px 7px 0 0 ;
+}
+
+.br-all .box .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 13px 0;
+    border-radius: 0 0 7px 7px;
+}
+#About{
+    padding: 40px 13rem;
+    background-color: #F8F9FA;
+    overflow: auto;
+    
+}
+.Headertext{
+    text-align: center;
+}
+.Headertext h1{
+    font-size: 40px;
+    padding: 0 0 16px;
+}
+.Headertext p{
+    color: #6c757d;
+    padding: 0 0 64px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.alltext{
+    
+    width: 33%;
+   float: left;
+    margin: 0  1% 40px;
+}
+.alltext .texts{
+    text-align: center;
+   padding: 13px 0;
+  
+    
+   
+}
